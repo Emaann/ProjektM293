@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#hero .cta-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+#produkte {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+#produkte h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.produkt-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.produkt {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.produkt img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.produkt h3 {
+    margin-bottom: 0.5rem;
+}
+
+.produkt .preis {
+    font-weight: bold;
+    color: #007BFF;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    margin-top: 2rem;
+}

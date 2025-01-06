@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beispiel-Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <div class="logo">MeinShop</div>
+    <nav>
+        <ul>
+            <li><a href="#produkte">Produkte</a></li>
+            <li><a href="#über-uns">Über uns</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="hero">
+        <h1>Willkommen in unserem Shop!</h1>
+        <p>Entdecke unsere neuesten Produkte und Angebote.</p>
+        <a href="#produkte" class="cta-button">Jetzt einkaufen</a>
+    </section>
+
+    <section id="produkte">
+        <h2>Unsere Produkte</h2>
+        <div class="produkt-grid">
+            <div class="produkt">
+                <img src="https://via.placeholder.com/150" alt="Produkt 1">
+                <h3>Produkt 1</h3>
+                <p>Beschreibung des Produkts 1.</p>
+                <p class="preis">€19,99</p>
+                <button>In den Warenkorb</button>
+            </div>
+            <div class="produkt">
+                <img src="https://via.placeholder.com/150" alt="Produkt 2">
+                <h3>Produkt 2</h3>
+                <p>Beschreibung des Produkts 2.</p>
+                <p class="preis">€29,99</p>
+                <button>In den Warenkorb</button>
+            </div>
+            <div class="produkt">
+                <img src="https://via.placeholder.com/150" alt="Produkt 3">
+                <h3>Produkt 3</h3>
+                <p>Beschreibung des Produkts 3.</p>
+                <p class="preis">€39,99</p>
+                <button>In den Warenkorb</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="über-uns">
+        <h2>Über uns</h2>
+        <p>Wir sind ein familiengeführter Shop mit hochwertigen Produkten zu fairen Preisen.</p>
+    </section>
+
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="nachricht">Nachricht:</label>
+            <textarea id="nachricht" name="nachricht" required></textarea>
+
+            <button type="submit">Absenden</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 MeinShop. Alle Rechte vorbehalten.</p>
+</footer>
+</body>
+</html>
